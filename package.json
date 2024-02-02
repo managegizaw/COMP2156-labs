@@ -4,9 +4,11 @@
   "description": "COMP2156 lab exercise",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "echo \"Error: no test specified\"",
+    "ci": "echo \"No ci configured"",
   },
   "keywords": [],
   "author": "Eskinder Kebeden",
   "license": "ISC"
 }
+
