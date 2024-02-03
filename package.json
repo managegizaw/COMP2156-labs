@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\"",
     "ci": "echo \"Error: ci configured""
 },
-  "keywords": [],
-  "author": "Eskinder Kebede",
-  "license": "ISC"
-}
+"keywords": [],
+"author": {Eskinder Kebede"}
+"license": "ISC"
+  
 
