@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\"",
-    "ci": "echo \"No ci configured"",
+    "ci": "echo \"Error: ci configured""
   },
   "keywords": [],
-  "author": "Eskinder Kebeden",
+  "author": "Eskinder Kebede",
   "license": "ISC"
 }
 
