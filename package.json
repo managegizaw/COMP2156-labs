@@ -1,7 +1,9 @@
 {
   "name": "devops_test",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "comp2156 lab exercise",
   "private": true,
+  "homepage": "https://managegizaw.github.io/COMP2156-labs/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -14,7 +16,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "echo \"Warning: No tests created yet.\"",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -34,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
